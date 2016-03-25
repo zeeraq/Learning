@@ -13,7 +13,7 @@
 		other tags from JD- polyglot, unit testing, data science, data mining, machine learning.
 		Other related tags - Databases, SQL, noSQL, mongo, 
 
-for any skill tag we can find related tags from here and here
+for any skill tag we can find related tags from [here](https://api.stackexchange.com/docs/synonyms-by-tags) and [here](https://api.stackexchange.com/docs/related-tags#tags=php&filter=default&site=stackoverflow&run=true)
 
 - Location- even though it shouldn't, location does matter. A person is more likely to be interested in a better job in the same city or at least in the same country.
 
