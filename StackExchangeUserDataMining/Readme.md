@@ -1,8 +1,8 @@
-**Finding Users relevant to a job description**
+#Finding Users relevant to a job description
 
 [Job Description](https://angel.co/hachi/jobs/113813-senior-software-engineer)
 
-*Fields/tags from the job description that we can use to filter user profile*
+**Fields/tags from the job description that we can use to filter user profile**
 
 - Job title- Senior software engineer.
 
@@ -20,7 +20,7 @@ for any skill tag we can find related tags from here and here
 - experience.
 
 
-*Getting the data*
+**Getting the data**
 
 Potential User profile data sources-
 - Linkedin- this would be ideal. It would give access to users skill set, experience, current job profile
