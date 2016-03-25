@@ -1,0 +1,31 @@
+//Query to get user data from data.stackexchange.com
+
+Select 
+  Id AS [Id Link],
+  DisplayName,
+  Reputation,
+  WebsiteUrl,
+  Location,
+  AboutMe,
+  Views,
+  UpVotes,
+  DownVotes,
+  EmailHash,
+  Age,
+  AccountId
+FROM 
+  Users
+WHERE
+LOWER(Location) LIKE '%india%' OR
+LOWER(Location) like '%bangalore%' OR
+LOWER(Location) like '%hyderabad%' OR
+LOWER(Location) like '%delhi%' OR
+LOWER(Location) like '%pune%' OR
+LOWER(Location) like '%mumbai%' OR
+LOWER(Location) like '%kolkata%' OR
+LOWER(Location) like '%gurgaon%' OR
+LOWER(Location) like '%noida%' OR
+LOWER(Location) like '%chennai%'
+
+ORDER BY
+  Reputation DESC
